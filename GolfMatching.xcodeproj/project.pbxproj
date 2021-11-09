@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0D46C3B797D9C9A65F5B67D7 /* Pods_GolfMatching_GolfMatchingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F0070EAA40CF71B9F2EE65 /* Pods_GolfMatching_GolfMatchingUITests.framework */; };
 		4CEFDB71D9AEF847BA009CD3 /* Pods_GolfMatching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F94BF60D1C05477FB2CE30A /* Pods_GolfMatching.framework */; };
+		A37A3E3627300D050075EDF5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3E3527300D050075EDF5 /* UserData.swift */; };
+		A37A3E3827313A130075EDF5 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3E3727313A130075EDF5 /* Const.swift */; };
+		A37A3E3A2732A49C0075EDF5 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3E392732A49C0075EDF5 /* UserCollectionViewCell.swift */; };
 		A380C41227216ED8008E5BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380C41127216ED8008E5BC4 /* AppDelegate.swift */; };
 		A380C41427216ED8008E5BC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380C41327216ED8008E5BC4 /* SceneDelegate.swift */; };
 		A380C41927216ED8008E5BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A380C41727216ED8008E5BC4 /* Main.storyboard */; };
@@ -22,7 +25,7 @@
 		A380C44627240DED008E5BC4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380C44527240DED008E5BC4 /* ProfileViewController.swift */; };
 		A380C4482728586A008E5BC4 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380C4472728586A008E5BC4 /* ProfileEditViewController.swift */; };
 		A380C44A2729269F008E5BC4 /* NameEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380C4492729269F008E5BC4 /* NameEditViewController.swift */; };
-		A380C44C272BD68D008E5BC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A380C44B272BD68D008E5BC4 /* GoogleService-Info.plist */; };
+		A3EB8B8C2733C6860020D590 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3EB8B8B2733C6860020D590 /* GoogleService-Info.plist */; };
 		E1DF725B88A90AAF165C442B /* Pods_GolfMatchingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CBB26F0E7C01CB04030CD4 /* Pods_GolfMatchingTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,9 @@
 		7F94BF60D1C05477FB2CE30A /* Pods_GolfMatching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfMatching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E70A6EA10F6E3FAA144688 /* Pods-GolfMatchingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfMatchingTests.debug.xcconfig"; path = "Target Support Files/Pods-GolfMatchingTests/Pods-GolfMatchingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		96F0070EAA40CF71B9F2EE65 /* Pods_GolfMatching_GolfMatchingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfMatching_GolfMatchingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37A3E3527300D050075EDF5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A37A3E3727313A130075EDF5 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		A37A3E392732A49C0075EDF5 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
 		A380C40E27216ED8008E5BC4 /* GolfMatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfMatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A380C41127216ED8008E5BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A380C41327216ED8008E5BC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +75,7 @@
 		A380C44527240DED008E5BC4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A380C4472728586A008E5BC4 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
 		A380C4492729269F008E5BC4 /* NameEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditViewController.swift; sourceTree = "<group>"; };
-		A380C44B272BD68D008E5BC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3EB8B8B2733C6860020D590 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D6A7539BFB86D7F1B0C5C894 /* Pods-GolfMatching-GolfMatchingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfMatching-GolfMatchingUITests.debug.xcconfig"; path = "Target Support Files/Pods-GolfMatching-GolfMatchingUITests/Pods-GolfMatching-GolfMatchingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,7 +144,10 @@
 			children = (
 				A380C41127216ED8008E5BC4 /* AppDelegate.swift */,
 				A380C41327216ED8008E5BC4 /* SceneDelegate.swift */,
+				A37A3E3727313A130075EDF5 /* Const.swift */,
+				A37A3E3527300D050075EDF5 /* UserData.swift */,
 				A380C44127240D1F008E5BC4 /* HomeViewController.swift */,
+				A37A3E392732A49C0075EDF5 /* UserCollectionViewCell.swift */,
 				A380C44327240DB7008E5BC4 /* MessageViewController.swift */,
 				A380C44527240DED008E5BC4 /* ProfileViewController.swift */,
 				A380C4472728586A008E5BC4 /* ProfileEditViewController.swift */,
@@ -147,7 +156,7 @@
 				A380C41A27216ED9008E5BC4 /* Assets.xcassets */,
 				A380C41C27216ED9008E5BC4 /* LaunchScreen.storyboard */,
 				A380C41F27216ED9008E5BC4 /* Info.plist */,
-				A380C44B272BD68D008E5BC4 /* GoogleService-Info.plist */,
+				A3EB8B8B2733C6860020D590 /* GoogleService-Info.plist */,
 			);
 			path = GolfMatching;
 			sourceTree = "<group>";
@@ -179,7 +188,6 @@
 				86E70A6EA10F6E3FAA144688 /* Pods-GolfMatchingTests.debug.xcconfig */,
 				5CC3B970872CC4FBB51A545E /* Pods-GolfMatchingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -293,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A380C41E27216ED9008E5BC4 /* LaunchScreen.storyboard in Resources */,
-				A380C44C272BD68D008E5BC4 /* GoogleService-Info.plist in Resources */,
+				A3EB8B8C2733C6860020D590 /* GoogleService-Info.plist in Resources */,
 				A380C41B27216ED9008E5BC4 /* Assets.xcassets in Resources */,
 				A380C41927216ED8008E5BC4 /* Main.storyboard in Resources */,
 			);
@@ -425,11 +433,14 @@
 			files = (
 				A380C44627240DED008E5BC4 /* ProfileViewController.swift in Sources */,
 				A380C41227216ED8008E5BC4 /* AppDelegate.swift in Sources */,
+				A37A3E3627300D050075EDF5 /* UserData.swift in Sources */,
 				A380C41427216ED8008E5BC4 /* SceneDelegate.swift in Sources */,
 				A380C44227240D1F008E5BC4 /* HomeViewController.swift in Sources */,
 				A380C44A2729269F008E5BC4 /* NameEditViewController.swift in Sources */,
 				A380C4482728586A008E5BC4 /* ProfileEditViewController.swift in Sources */,
 				A380C44427240DB7008E5BC4 /* MessageViewController.swift in Sources */,
+				A37A3E3827313A130075EDF5 /* Const.swift in Sources */,
+				A37A3E3A2732A49C0075EDF5 /* UserCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
