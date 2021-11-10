@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D46C3B797D9C9A65F5B67D7 /* Pods_GolfMatching_GolfMatchingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F0070EAA40CF71B9F2EE65 /* Pods_GolfMatching_GolfMatchingUITests.framework */; };
 		4CEFDB71D9AEF847BA009CD3 /* Pods_GolfMatching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F94BF60D1C05477FB2CE30A /* Pods_GolfMatching.framework */; };
+		A319B2D4273B7A2900BF7EED /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319B2D3273B7A2900BF7EED /* SearchViewController.swift */; };
 		A37A3E3627300D050075EDF5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3E3527300D050075EDF5 /* UserData.swift */; };
 		A37A3E3827313A130075EDF5 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3E3727313A130075EDF5 /* Const.swift */; };
 		A37A3E3A2732A49C0075EDF5 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3E392732A49C0075EDF5 /* UserCollectionViewCell.swift */; };
@@ -55,6 +56,7 @@
 		7F94BF60D1C05477FB2CE30A /* Pods_GolfMatching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfMatching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E70A6EA10F6E3FAA144688 /* Pods-GolfMatchingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfMatchingTests.debug.xcconfig"; path = "Target Support Files/Pods-GolfMatchingTests/Pods-GolfMatchingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		96F0070EAA40CF71B9F2EE65 /* Pods_GolfMatching_GolfMatchingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfMatching_GolfMatchingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A319B2D3273B7A2900BF7EED /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A37A3E3527300D050075EDF5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		A37A3E3727313A130075EDF5 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		A37A3E392732A49C0075EDF5 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				A37A3E3527300D050075EDF5 /* UserData.swift */,
 				A380C44127240D1F008E5BC4 /* HomeViewController.swift */,
 				A37A3E392732A49C0075EDF5 /* UserCollectionViewCell.swift */,
+				A319B2D3273B7A2900BF7EED /* SearchViewController.swift */,
 				A380C44327240DB7008E5BC4 /* MessageViewController.swift */,
 				A380C44527240DED008E5BC4 /* ProfileViewController.swift */,
 				A380C4472728586A008E5BC4 /* ProfileEditViewController.swift */,
@@ -432,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A380C44627240DED008E5BC4 /* ProfileViewController.swift in Sources */,
+				A319B2D4273B7A2900BF7EED /* SearchViewController.swift in Sources */,
 				A380C41227216ED8008E5BC4 /* AppDelegate.swift in Sources */,
 				A37A3E3627300D050075EDF5 /* UserData.swift in Sources */,
 				A380C41427216ED8008E5BC4 /* SceneDelegate.swift in Sources */,

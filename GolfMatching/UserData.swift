@@ -10,6 +10,7 @@ import Firebase
 
 class UserData: NSObject {
     var id: String
+    var gender: String?
     var username: String?
     var score: String?
     var age: Int?
@@ -19,6 +20,8 @@ class UserData: NSObject {
         self.id = document.documentID
         
         let userDic = document.data()!
+        
+        self.gender = userDic["gender"] as? String
         
         self.username = userDic["username"] as? String
         

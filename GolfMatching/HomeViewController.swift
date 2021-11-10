@@ -10,6 +10,9 @@ import Firebase
 
 class HomeViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
+    @IBOutlet weak var homeCollectionView: UICollectionView!
+    
+    
     // ユーザーデータを格納する配列
     var userArray: [UserData] = []
     // Firestoreのリスナー
@@ -55,6 +58,8 @@ class HomeViewController: UIViewController,UICollectionViewDelegate, UICollectio
                     let userData = UserData(document: document)
                     return userData
                 }
+                //collectionViewのリロード
+                self.homeCollectionView.reloadData()
             }
             
         }
