@@ -11,9 +11,23 @@ class ChooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBOutlet weak var chooseTableVIew: UITableView!
     
-    var id : String?
+    struct Gender {
+        var gender : String
+        var choose : Bool
+        
+        init(gender: String, choose: Bool){
+            self.gender = gender
+            self.choose = choose
+        }
+    }
     
-    var genderArray = ["男性","女性"]
+    var genderArray: [Gender] = [
+        Gender(gender:  "男性", choose: false),
+        Gender(gender:  "女性", choose: false)
+    ]
+    
+    var genderList:[String] = []
+    
     var choosegenderArray: [String] = []
     
 
@@ -36,8 +50,11 @@ class ChooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // 再利用可能な cell を得る
         let cell = chooseTableVIew.dequeueReusableCell(withIdentifier: "ChooseCell", for: indexPath)
         
-        cell.textLabel?.text = genderArray[indexPath.row]
+        for genders in genderArray {
+            genderList.append(genders.gender)
+        }
         
+        cell.textLabel?.text = genderList[indexPath.row]
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
         
         return cell
@@ -50,7 +67,7 @@ class ChooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // チェックマークを入れる
         cell?.accessoryType = .checkmark
         
-        choosegenderArray.append(genderArray[indexPath.row])
+//        choosegenderArray.append(genderArray[indexPath.row])
     }
     
     // セルの選択が外れた時に呼び出される
@@ -60,7 +77,7 @@ class ChooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // チェックマークを外す
         cell?.accessoryType = .none
         
-        choosegenderArray.remove(at: indexPath.row)
+//        choosegenderArray.remove(at: indexPath.row)
         print("選択\(choosegenderArray)")
     }
     
