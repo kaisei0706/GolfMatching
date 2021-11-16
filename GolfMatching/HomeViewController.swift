@@ -116,7 +116,11 @@ class HomeViewController: UIViewController,UICollectionViewDelegate, UICollectio
 
         // セルが選択されたときの処理
         func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//            print("\(scores[indexPath.row])がtapされたよ")
+            let detailViewController: DetailViewController = self.storyboard?.instantiateViewController(withIdentifier: "Detail") as! DetailViewController
+            let userData = userArray[indexPath.row]
+            detailViewController.id = userData.id
+            self.navigationController?.pushViewController(detailViewController, animated: true)
+            print("tapされたよ")
         }
 
     /*
