@@ -9,6 +9,7 @@ import UIKit
 
 class SearchViewController: UIViewController,UIGestureRecognizerDelegate {
     
+    var genderchoice = "男性"
 
     let genderList = ["男性", "女性"]
     @IBOutlet weak var gendersearchView: UIView!
@@ -22,7 +23,9 @@ class SearchViewController: UIViewController,UIGestureRecognizerDelegate {
 
         gendersearchView.addGestureRecognizer(tap)
         
-        genderLabel.text = "男性"
+        genderLabel.text = genderchoice
+        
+        print("性別\(genderchoice)")
 
         // Do any additional setup after loading the view.
     }
